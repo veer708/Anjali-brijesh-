@@ -43,9 +43,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "24495656")
-API_HASH  = os.environ.get("API_HASH", "61afcf68c6429714dd18acd07f246571")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7832919263:AAErMbCTcdG7UNDxSUGGkMbufqZLrJISyas") 
+API_ID    = os.environ.get("API_ID", "21567814")
+API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799414140:AAEpX2auXFGdZg0TIZ5DmRfk-zGFiCmXfSA") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -661,7 +661,7 @@ async def start_command(bot: Client, message: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 COOKIES_FILE_PATH = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
-ADMIN_ID = 5548106944  # Admin ID for restricting the command
+ADMIN_ID = 6126688051  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("cookies") & filters.private)
 async def cookies_handler(client: Client, m: Message):
@@ -709,7 +709,7 @@ async def cookies_handler(client: Client, m: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 INSTAGRAM_COOKIES_PATH = os.getenv("INSTAGRAM_COOKIES_PATH", "instagram_cookies.txt")
-ADMIN_ID = 5548106944  # Admin ID for restricting the command
+ADMIN_ID = 6126688051  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("instacookies") & filters.private)
 async def instacookies_handler(client: Client, m: Message):
@@ -765,7 +765,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-ADMIN_ID = 5548106944
+ADMIN_ID = 6126688051
 
 # Function to read subscription data
 def read_subscription_data():
@@ -903,7 +903,7 @@ async def my_plan(client, message: Message):
     else:
         await message.reply_text("❌ **You are not a premium user.**\nPlease upgrade your plan. 💳")
 
-ADMIN_ID = 5548106944
+ADMIN_ID = 6126688051
 
 # Helper function to check admin privilege
 def is_admin(user_id):
