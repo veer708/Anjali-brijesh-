@@ -91,11 +91,11 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/sanjaykagra86"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+EU-tiwyLZBMzY2Jl"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/hjvvgi"),
         ],
     ]
 )
@@ -644,7 +644,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️**\n"
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
-        "➠ **Use /moni Command to Download From TXT File** 📄\n\n"
+        "➠ **Use /STRANGER Command to Download From TXT File** 📄\n\n"
         "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @SanjayKagra86🩷"
     )
 
@@ -833,7 +833,7 @@ async def guide_handler(client: Client, message: Message):
         "3️⃣ `/e2t` - Filter your **TXT file** and extract important details. 🔍📜\n"
         "4️⃣ `/yt2t` - Convert a **YouTube playlist URL** into a **TXT file**. (Not Working Properly ❌)\n"
         "5️⃣ `/yt2txt` - Convert a **YouTube playlist URL** into a **TXT file** (Recommended ✅).\n"
-        "6️⃣ `/moni` - Process a `.txt` file with advanced logic. 📂📜\n"
+        "6️⃣ `/STRANGER` - Process a `.txt` file with advanced logic. 📂📜\n"
         "   *(Note: Use this command in channels or groups for proper functionality.)*\n"
         "7️⃣ `/add_channel -100{channel_id}` - Add a channel to the bot. ➕📢\n"
         "8️⃣ `/remove_channel -100{channel_id}` - Remove a channel from the bot. ❌📢\n"
