@@ -43,9 +43,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "21567814")
-API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799414140:AAEpX2auXFGdZg0TIZ5DmRfk-zGFiCmXfSA") 
+API_ID    = os.environ.get("API_ID", "26421834")
+API_HASH  = os.environ.get("API_HASH", "fe21db9f61ff01300fc1fa3673617983")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7751947458:AAEcOvQxX1wpKFj7SzjVPNYd6zaHVr3lFW8") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -91,11 +91,11 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+EU-tiwyLZBMzY2Jl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/BRIJESH_HEPL_BOT"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/hjvvgi"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
     ]
 )
@@ -104,11 +104,11 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/sanjaykagra86"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/BRIJESH_HEPL_BOT"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
     ]
 )
@@ -136,7 +136,7 @@ async def add_channel(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@SanjayKagra86** for subscription details."
+            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
         )
         return
 
@@ -226,7 +226,7 @@ async def text_to_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@SanjayKagra86** for subscription details."
+            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
         )
         return
 
@@ -302,7 +302,7 @@ async def edit_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@SanjayKagra86** for subscription details."
+            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
         )
         return
 
@@ -490,7 +490,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@SanjayKagra86** for subscription details."
+            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
         )
         return
 
@@ -602,7 +602,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@SanjayKagra86** for subscription details."
+            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
         )
         return
 
@@ -644,8 +644,8 @@ async def start_command(bot: Client, message: Message):
         "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️**\n"
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
-        "➠ **Use /STRANGER Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @SanjayKagra86🩷"
+        "➠ **Use /𝑩𝕣ΐ𝕛℮𝚜Ꮒ Command to Download From TXT File** 📄\n\n"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @BRIJESH_HEPL_BOT"
     )
 
     # Send the image with caption and buttons
@@ -661,7 +661,7 @@ async def start_command(bot: Client, message: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 COOKIES_FILE_PATH = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
-ADMIN_ID = 6126688051  # Admin ID for restricting the command
+ADMIN_ID = 6344648593  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("cookies") & filters.private)
 async def cookies_handler(client: Client, m: Message):
@@ -709,7 +709,7 @@ async def cookies_handler(client: Client, m: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 INSTAGRAM_COOKIES_PATH = os.getenv("INSTAGRAM_COOKIES_PATH", "instagram_cookies.txt")
-ADMIN_ID = 6126688051  # Admin ID for restricting the command
+ADMIN_ID = 6344648593  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("instacookies") & filters.private)
 async def instacookies_handler(client: Client, m: Message):
@@ -765,7 +765,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-ADMIN_ID = 6126688051
+ADMIN_ID = 6344648593
 
 # Function to read subscription data
 def read_subscription_data():
@@ -833,7 +833,7 @@ async def guide_handler(client: Client, message: Message):
         "3️⃣ `/e2t` - Filter your **TXT file** and extract important details. 🔍📜\n"
         "4️⃣ `/yt2t` - Convert a **YouTube playlist URL** into a **TXT file**. (Not Working Properly ❌)\n"
         "5️⃣ `/yt2txt` - Convert a **YouTube playlist URL** into a **TXT file** (Recommended ✅).\n"
-        "6️⃣ `/STRANGER` - Process a `.txt` file with advanced logic. 📂📜\n"
+        "6️⃣ `/𝑩𝕣ΐ𝕛℮𝚜Ꮒ` - Process a `.txt` file with advanced logic. 📂📜\n"
         "   *(Note: Use this command in channels or groups for proper functionality.)*\n"
         "7️⃣ `/add_channel -100{channel_id}` - Add a channel to the bot. ➕📢\n"
         "8️⃣ `/remove_channel -100{channel_id}` - Remove a channel from the bot. ❌📢\n"
@@ -903,7 +903,7 @@ async def my_plan(client, message: Message):
     else:
         await message.reply_text("❌ **You are not a premium user.**\nPlease upgrade your plan. 💳")
 
-ADMIN_ID = 6126688051
+ADMIN_ID = 6344648593
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -1044,8 +1044,8 @@ async def stop_handler(client, message: Message):
     await message.reply_text("♦️ **Bot Stopped.** Restarting now...", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-# 7. /moni - Moni handler for premium users
-@bot.on_message(filters.command("moni"))
+# 7. /Anjali - Anjali handler for premium users
+@bot.on_message(filters.command("Anjali"))
 async def moni_handler(client: Client, m: Message):
     if m.chat.type == "private":
         user_id = str(m.from_user.id)
@@ -1151,7 +1151,7 @@ async def moni_handler(client: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = '@SanjayKagra86🩷'
+        CR = '@BRIJESH_HEPL_BOT'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -1267,10 +1267,10 @@ async def moni_handler(client: Client, m: Message):
         
                 
             try:                
-                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} ⎳𝓸𝓿𝓮❥❤️━━╬٨ﮩSanju٨ـﮩـ Love❥.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝m✮⃝oni.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc2 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝m✮⃝oni.html \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc3 = f'**📷 IMAGE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝m✮⃝oni.png \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} ⎳𝓸𝓿𝓮❥❤️━━╬٨ﮩ𝑩𝕣ΐ𝕛℮𝚜Ꮒ٨ـﮩـ Love❥.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝Anjali.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc2 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝Anjali.html \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc3 = f'**📷 IMAGE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝Anjali.png \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                                                  
                 if "drive" in url:
                     try:
@@ -1408,7 +1408,7 @@ async def moni_handler(client: Client, m: Message):
                     Show = f"""❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 **Title:** `{name}`\n⌨ **Quality:** {raw_text2}\n"""
                 
                     # Enhanced prog message
-                    prog = await m.reply_text(f"""**Downloading Video...**\n\n📄 **Title:** `{name}`\n⌨ **Quality:** {raw_text2}\n\n⚡ **Bot Made By 𝄟✮͢🦋⃟≛⃝m✮⃝oni🩷**""")
+                    prog = await m.reply_text(f"""**Downloading Video...**\n\n📄 **Title:** `{name}`\n⌨ **Quality:** {raw_text2}\n\n⚡ **Bot Made By 𝄟✮͢🦋⃟≛⃝𝑩𝕣ΐ𝕛℮𝚜Ꮒ✮⃝🩷**""")
                
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
