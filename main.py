@@ -812,7 +812,7 @@ def write_channels_data(data):
 # Admin-only decorator
 def admin_only(func):
     async def wrapper(client, message: Message):
-        if message.from_user.id != ADMIN_ID:
+        if message.from_user.id != ADMIN_ID:6344648593"
             await message.reply_text("❌ You are not authorized to use this command. Please contact the admin.")
             return
         await func(client, message)
