@@ -91,7 +91,7 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/BRIJESH_HEPL_BOT"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Oye_brijesh"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
         [
@@ -104,7 +104,7 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/BRIJESH_HEPL_BOT"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Oye_brijesh"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
         [
@@ -136,7 +136,7 @@ async def add_channel(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
+            "🔑 Please contact my admin at: **@Oye_brijesh** for subscription details."
         )
         return
 
@@ -226,7 +226,7 @@ async def text_to_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
+            "🔑 Please contact my admin at: **@Oye_brijesh** for subscription details."
         )
         return
 
@@ -302,7 +302,7 @@ async def edit_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
+            "🔑 Please contact my admin at: **@Oye_brijesh** for subscription details."
         )
         return
 
@@ -490,7 +490,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
+            "🔑 Please contact my admin at: **@Oye_brijesh** for subscription details."
         )
         return
 
@@ -602,7 +602,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@BRIJESH_HEPL_BOT** for subscription details."
+            "🔑 Please contact my admin at: **@Oye_brijesh** for subscription details."
         )
         return
 
@@ -645,7 +645,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /brijesh Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @BRIJESH_HEPL_BOT"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @Oye_brijesh"
     )
 
     # Send the image with caption and buttons
@@ -670,7 +670,7 @@ async def cookies_handler(client: Client, m: Message):
     Allows the admin to upload or update the cookies file dynamically.
     """
     # Check if the user is the admin 🛑
-    if m.from_user.id != ADMIN_ID:
+    if m.from_user.id != ADMIN_ID:6344648593
         await m.reply_text("🚫 You are not authorized to use this command.")
         return
 
@@ -718,7 +718,7 @@ async def instacookies_handler(client: Client, m: Message):
     Allows the admin to upload or update the Instagram cookies file dynamically.
     """
     # Check if the user is the admin 🛑
-    if m.from_user.id != ADMIN_ID:
+    if m.from_user.id != ADMIN_ID:6344648593
         await m.reply_text("🚫 You are not authorized to use this command.")
         return
 
@@ -812,7 +812,7 @@ def write_channels_data(data):
 # Admin-only decorator
 def admin_only(func):
     async def wrapper(client, message: Message):
-        if message.from_user.id != ADMIN_ID:6344648593"
+        if message.from_user.id != ADMIN_ID:6344648593
             await message.reply_text("❌ You are not authorized to use this command. Please contact the admin.")
             return
         await func(client, message)
@@ -890,7 +890,7 @@ async def my_plan(client, message: Message):
     user_id = str(message.from_user.id)
     subscription_data = read_subscription_data()
 
-    if user_id == str(ADMIN_ID):
+    if user_id == str(ADMIN_ID):6344648593
         await message.reply_text("✨ **You have permanent access!**\nYou are the admin. 💎")
     elif any(user[0] == user_id for user in subscription_data):
         expiration_date = next(user[1] for user in subscription_data if user[0] == user_id)
@@ -907,7 +907,7 @@ ADMIN_ID = 6344648593
 
 # Helper function to check admin privilege
 def is_admin(user_id):
-    return user_id == ADMIN_ID
+    return user_id == ADMIN_ID = 6344648593
 
 # Command to show all users (Admin only)
 @bot.on_message(filters.command("users") & filters.private)
@@ -1019,7 +1019,7 @@ async def allowed_channels(client, message: Message):
 async def remove_all_channels(client, message: Message):
     user_id = message.from_user.id
 
-    if user_id != ADMIN_ID:
+    if user_id != ADMIN_ID:6344648593
         await message.reply_text("❌ **You are not authorized to use this command.**")
         return
 
@@ -1044,9 +1044,9 @@ async def stop_handler(client, message: Message):
     await message.reply_text("♦️ **Bot Stopped.** Restarting now...", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-# 7. /Anjali - Anjali handler for premium users
-@bot.on_message(filters.command("Anjali"))
-async def moni_handler(client: Client, m: Message):
+# 7. /brijesh - brijesh handler for premium users
+@bot.on_message(filters.command("brijesh"))
+async def brijesh_handler(client: Client, m: Message):
     if m.chat.type == "private":
         user_id = str(m.from_user.id)
         subscription_data = read_subscription_data()
@@ -1151,7 +1151,7 @@ async def moni_handler(client: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = '@BRIJESH_HEPL_BOT'
+        CR = '@Oye_brijesh'
     elif raw_text3:
         CR = raw_text3
     else:
